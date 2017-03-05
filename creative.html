@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <head>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
   <style>
 
   body{
-    font-family:helvetica,sans-serif;
+    font-family: 'EB Garamond', serif;
     margin:0 auto;
-    max-width:600px;
+    max-width:750px;
+    background: #ffbf00;
+
   }
-    div{ height:200px;
+    div{ height:250px;
     background-size:cover;
     background-size:center;
     position: relative;
@@ -16,33 +20,77 @@
   }
   h1{
     text-align:center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 70px;
+    margin: 50px 0 0 0;
+    color: #0000cc
+  }
+  h2{
+    text-align: center;
+    font-family: font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+    margin: 0px 0 70px 0;
+    color: #660066
   }
   .first
   {
-    background: url("http://cdn.wallpapersafari.com/75/99/H8ZSGu.jpg")
+    background: url("http://www.canadien.biz/wp-content/uploads/2013/02/Electronics-board-1024x640.jpg")
   }
   .second{
-    background: url("https://wallpaperscraft.com/image/fingerprint_finger_electronics_abstraction_76369_1920x1080.jpg")
+    background: url("http://2ff8n03drmib1b12373aauek-wpengine.netdna-ssl.com/assets/images/Art/Circuit%20Board%20Art/mandala-2leonardo%20ulian.jpg")
   }
   .third{
-    background:url("http://goldwallpapers.com/uploads/posts/electronics-wallpapers/electronics_wallpapers_001.jpg")
+    background:url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTLX-iM0lV6JD10tyDovznn0jJni6XdHqeLdxQJ8waGiI92bV66")
+  }
+  .forth{
+    background: url("https://blog.adafruit.com/wp-content/uploads/2016/06/27208651132_5845db63e2_z.jpg")
   }
       p{
         color:rgba(255,255,255,1);
-        background: rbga(0,0,0,1);
-        line-height:28px;
+        background-color: green;
+        background:linear-gradient(right,rbga(0,255,0,1),rbga(0,255,0,0.3));
+        background: -moz-linear-gradient(right,rbga(0,255,0,1),rbga(0,255,0,0.3));
+        background: -webkit-linear-gradient(right,rbga(0,255,0,1),rbga(0,255,0,0.3));
+        line-height:25px;
         padding: 10px;
         text-align: justify;
         position: absolute;
         bottom:0;
-        margin: 0px;
+        margin:0;
+        
       }
+
+.input{
+  float: right;
+}
+@media (max-width:500px) {
+  h1{
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2{
+    font-size: 20px;
+    margin:20px 0 30px 0;
+  }
+  div{
+    margin: 20px 12px 0 12px
+  }
+  p{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small{
+    font-size: 16px;
+  }
+}
+
       </style>
 </head>
 
 <body>
-  <h1>rayat bahra university</h1>
-  <h2>electronica club</h2>
+  <h1>RAYAT BAHRA UNIVERSITY</h1>
+  <h2>Electronica club</h2>
   <div class="first">
     <p>
     This is a club where students can create their own designs for electronic,
@@ -53,22 +101,23 @@
     electronic devices and circuits.<br/>
 </p>
 </div>
-<div class="dessert">
+<div class="forth">
 <p>
   Example projects<br/>
-      <ul>
-  <li>cell phone detector</li>
-  <li>water level controller using 8051 microcontroller</li>
-  <li>password based circuit breaker</li>
-  <li>water level indicator</li>
-  <li>mobile jammer circuit</li>
+  <ul>
+     <li>cell phone detector</li>
+     <li>water level controller using 8051 microcontroller</li>
+     <li>password based circuit breaker</li>
+     <li>water level indicator</li>
+     <li>mobile jammer circuit</li>
 
     and many more
 </p>
 </div>
 <div class="second">
 
-<p>membership<br/>
+<p>membership <span class="input"><input type="name and roll no." placeholder="enter name & roll no.">
+  <input type="submit"></span><br/>
   <small>For the student club membership, students are required to pay ₹500 for
   joining the club and have to fill the form. </p>
 </div>
@@ -76,17 +125,18 @@
 
 <p> Other benefits<br/>
   <small>the electronica club organises literary and cultural events
-    which will help the students and to explore themselves.<br/>
-Industrial trips and visits are also included. <br/>various competitive events are
+    which will help the students and to explore themselves.
+Industrial trips and visits are also included. various competitive events are
 also the part of club in which students will be rewarded and the
 certificates will be provided to them.</p>
 </div>
 
-<div class="four"
-<p>contact <br/>
-  <small>Thea <br/>(club organizer)<br/>
+<div>
+<h3>contact</h3>
+<p>
+krishna <br/>(club organizer)<br/>
 9988776652</p>
-<div/>
+</div>
 
 
 </body>
